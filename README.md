@@ -1,2 +1,33 @@
-# llm-honeypot
-🪤 Honeypot for LLM attacks — detects and traps Prompt Injection &amp; Jailbreak attempts.  Built with FastAPI + DistilBERT classifier.  Part of proactive AI security research.
+# 🪤 LLM Honeypot
+
+> Honeypot (ловушка) для обнаружения и перехвата атак на LLM-системы: Prompt Injection, Jailbreak, обход цензуры.
+
+С появлением ChatGPT и локальных нейросетей хакеры начали активно их атаковать. Проектов по защите от этого пока критически мало.
+
+## 🎯 Суть проекта
+
+Веб-сервис, который притворяется корпоративным чат-ботом, но на самом деле является ловушкой для хакеров:
+
+- 🔍 Распознаёт попытки взлома (Prompt Injection, Jailbreak)
+- 🎭 Подыгрывает атакующему — выдаёт фейковые "секретные данные"
+- 📝 Детально логирует все действия атакующего
+
+## 🧠 Как работает
+
+1. Принимает запросы через API или веб-интерфейс
+2. Классификатор (эвристика → DistilBERT) проверяет промпт на вредоносность
+3. При обнаружении атаки — возвращает правдоподобные фейковые данные
+4. Логирует IP, промпт, сработавшие паттерны, время атаки
+
+## 🚀 Быстрый старт
+
+```bash
+# Клонируем
+git clone https://github.com/ТВОЙ_ЮЗЕРНЕЙМ/llm-honeypot.git
+cd llm-honeypot
+
+# Устанавливаем
+pip install fastapi uvicorn
+
+# Запускаем
+uvicorn main:app --reload
