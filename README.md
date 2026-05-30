@@ -23,7 +23,7 @@ A web service disguised as a corporate AI assistant, but actually a trap for mal
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/llm-honeypot.git
+git clone https://github.com/romiisromie/llm-honeypot.git
 cd llm-honeypot
 
 # Install dependencies
