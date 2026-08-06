@@ -19,7 +19,7 @@ A web service disguised as a corporate AI assistant, but actually a trap for mal
 3. If an attack is detected — returns convincing fake credentials and tokens
 4. Logs the attacker's IP, prompt, matched patterns, and timestamp
 
-## 🚀 Quick Start
+## 🚀 Fast Start
 
 ```bash
 # Clone the repo
