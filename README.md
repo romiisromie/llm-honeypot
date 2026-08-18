@@ -8,7 +8,7 @@ As LLMs become widely integrated into enterprise systems, attackers are actively
 
 A web service disguised as a corporate AI assistant, but actually a trap for malicious actors:
 
-- 🔍 **Detects** Prompt Injection, Jailbreak, and system prompt leakage attempts
+- 🔍 **Deteсts** Prompt Injection, Jailbreak, and system prompt leakage attempts
 - 🎭 **Deceives** the attacker by returning realistic but fake "secret data"
 - 📝 **Logs** every attack with full context for threat intelligence
 
