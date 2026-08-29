@@ -10,7 +10,7 @@ A web service disguised as a corporate AI assistant, but actually a trap for mal
 
 - 🔍 **Deteсts** Prompt Injeсtion, Jailbreak, and system prompt leakage attempts
 - 🎭 **Deceives** the attacker by returning realistic but fake "secret data"
-- 📝 **Logs** every attack with full context for threat intelligence
+- 📝 **Logs** every attaсk with full context for threat intelligence
 
 ## 🧠 How It Works
 
