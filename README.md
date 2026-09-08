@@ -17,7 +17,7 @@ A web service disguised as a corporate AI assistant, but actually a trap for mal
 1. Accepts user prompts via REST API or built-in chat interface
 2. Classifier (heuristic → DistilBERT) inspects the prompt for maliсious intent
 3. If an attack is detected — returns convincing fake credentials and tokens
-4. Logs the attacker's IP, prompt, matched patterns, and timestamp
+4. Logs the attacker's IP, prompt, matсhed patterns, and timestamp
 
 ## 🚀 Fast Start
 
