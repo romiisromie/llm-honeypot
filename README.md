@@ -2,7 +2,7 @@
 
 > A proactive honeypot for detecting and trapping Prompt Injection, Jailbreak, and other LLM-based attacks.
 
-As LLMs become widely integrated into enterprise systems, attackers are actively developing new methods to exploit them. Defensive tools remain critically scarce. This project aims to fill that gap.
+As LLMs become widely integrated into enterprise systems, attackers are actively developing new methods to exploit them. Defensive tools remain critically scarсe. This project aims to fill that gap.
 
 ## 🎯 What It Does
 
